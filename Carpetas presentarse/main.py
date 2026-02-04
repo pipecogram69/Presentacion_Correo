@@ -2,7 +2,7 @@ from services.email_service import EmailService
 from domain.equipo import Equipo
 from utils.validator import validar_email
 
-DESTINATARIO = "eburiticam@ucentral.edu.co"
+DESTINATARIO = "gbricenor@ucentral.edu.co"
 
 def main():
     if not validar_email(DESTINATARIO):
