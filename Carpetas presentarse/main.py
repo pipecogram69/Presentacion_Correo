@@ -24,7 +24,7 @@ def main():
     servicio = EmailService()
     enviado = servicio.enviar(
         DESTINATARIO,
-        "Entrega Proyecto – Envío de Correo",
+        "Entrega trabajo – Envío de Correo",
         mensaje
     )
 
